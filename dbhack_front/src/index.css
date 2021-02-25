@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* Playground by EThaiZone */
+#parent {
+  width: 100%;
+  height: 200px;
+  border:solid 1px #000;
 }
+
+
+#parent > .bot {
+  opacity: 0.3;
+  position:relative;
+  float: left;
+  transition: 0.5s;
+}
+#parent > .bot {
+  opacity: 1;
+}  
+  
