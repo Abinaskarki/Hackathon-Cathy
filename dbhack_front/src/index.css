@@ -29,4 +29,9 @@ code {
 #parent > .bot {
   opacity: 1;
 }  
+
+#bot{
+  border:solid 1px #000;
+  float: right;
+}
   

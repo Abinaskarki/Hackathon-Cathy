@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
       <div id="parent">  
         <iframe src="https://www.db.com/careers/index_e.html" width="100%" height="800px" allowFullScreen title="db careers"></iframe>
       </div>
-      <div class = "bot">      
+      <div id= "bot">      
           <iframe
               allow="microphone;"
               width="350"
